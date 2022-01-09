@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    min-height: 800px;
+    
+}
+
+
+.photoSide{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #E53939;
+    text-align: center;
+    flex-grow: 1;
+    
+   
+}
+
+
+.loginSide{
+    
+ 
+    background-color: #1E1E1E;
+    flex: 0 0 750px;
+    
+}
+
+.burgerPhoto{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 50%;
+    height: auto;
+   
+}
+
+
+.goToHomePageButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0px 0px 40px 0px;
+    border: none;
+ 
+}
+
+.goToHomePageButtonDiv{
+    width: 750px;
+    height: 50px;
+}
+
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 100px;
+    
+}
+
+.logoDiv{
+    margin-top: 15vh;
+    width: 750px;
+    height: 112px; 
+    text-align: center;
+}
+
+
+.loginLabel{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 25px;
+    z-index: 1;
+    
+}
+
+.logingInput{
+    position: absolute;
+    font-size: 30px;
+    border-radius: 40px 40px 40px 40px;
+    border: 20px solid white;
+    outline: none;
+    border-left-width: 20px;
+    margin-left: 130px;
+    border-left-width: 100px;
+
+}
+
+.loginDiv{
+    width: 750px;
+    height: 75px;
+    
+    margin-top: 10vh;
+}
+
+
+.passwordLabel{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 25px;
+    z-index: 1;
+    
+}
+
+.passwordInput{
+    position: absolute;
+    font-size: 30px;
+    border-radius: 40px 40px 40px 40px;
+    border: 20px solid white;
+    outline: none;
+    border-left-width: 20px;
+    margin-left: 130px;
+    border-left-width: 100px;
+
+}
+
+.passwordDiv{
+    width: 750px;
+    height: 75px;
+    
+    margin-top: 5vh;
+}
+
+.checkboxInput {
+    width: 20px;
+    height: 20px;
+    margin-left: 150px;
+    
+}
+
+.checkboxLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 18px;
+    color: white;
+}
+
+.aInput{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 18px;
+    pointer-events: none;
+    cursor: default;
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+.rememberMeAndForgetPasswordDiv{
+    width: 750px;
+    height: 25px;
+
+    margin-top: 5px;
+}
+
+
+.inputSubmit{
+    width: 250px;
+    height: 65px;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.submitDiv{
+    width: 750px;
+    height: 65px;
+    text-align: center;
+    margin-top: 8vh;
+    
+}
+
+.errorBox{
+    position: absolute;
+    width: 350px;
+    height: 65px;
+    color: #B92E0D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    margin-left: 200px;
+    
+    
+    
+}
+
+
+.errorDiv{
+    width: 750px;
+    height: 65px;
+    text-align: center;
+    margin-top: 4vh;
+    
+}
+
+
+.dontHaveAccountSpan{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dontHaveAccountSpanDiv{
+    width: 750px;
+    height: 20px;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.createNewAccountButton{
+    width: 250px;
+    height: 65px;
+    background-color: #E53939;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+}
+
+
+.createNewAccountButtonDiv{
+    width: 750px;
+    height: 65px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .photoSide {
+      display: none;
+    }
+
+
+    
+}
+
+

@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative
+    
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+}
+
+
+.navBar{
+    
+    height: 70px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 27px 27px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+
+.logo{
+    order: 1;
+    font-size: 40px;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 10%;
+    margin-left: 30px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.link{
+    
+    
+    cursor: default;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+
+.linkList{
+    order: 2;
+    font-size: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.space{
+    order: 3;
+    flex-grow: 1;
+}
+
+.userIcon{
+
+    order: 4;
+       
+}
+
+
+.userIconImg{
+   height: 55px; 
+  
+}
+
+
+
+
+
+
+
+
+.userLogin{
+    font-family: Arial, Helvetica, sans-serif;
+    order: 5;
+    display: inline-block;
+    color: white;
+    margin-right: 30px ;
+}
+
+.logOutForm{
+    order: 6;
+    display: inline-block;
+    margin-right: 50px;
+    width: 180px;
+    height: 40px;
+    
+}
+
+.logOutButton{
+    
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FABA17;
+    color: black;
+    border: 0px;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    
+
+}
+
+
+
+
+.buttonListContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+.cartLineQuantityContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.cartLinePriceContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.cartLineNameContainer{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+.cartLineImage{
+    width: 72px;
+    height: 60px;
+}
+
+.cartLineImageContainer{
+    display: flex;
+    flex: 1;
+}
+
+.cartLineContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: solid 1px gray;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+
+
+.clearCartButton{
+    
+    border-radius: 20px;
+    font-size: 17px;
+    border: 0px;
+    height: 35px;
+    width: 170px;
+    font-weight: bold;
+    
+}
+
+.clearCartButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items:center;
+    flex: 1;
+}
+.cartListLabelContainer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+
+.listCartTitleContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.orderProductListContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+.titleFormContainer{
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.userNameFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.userNameFormContainer{
+    margin-top: 5px;
+}
+
+.userSurnameFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+
+.userSurnameFormContainer{
+    margin-top: 5px;
+}
+
+.userHouseNumberFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+
+
+.userHourseNumberFormConatiner{
+    margin-top: 5px;
+}
+
+.userStreetFormConatiner{
+    margin-top: 5px;
+}
+
+.userStreetFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.userCityFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.userCityFormContainer{
+    margin-top: 5px;
+}
+
+.userStateFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.userStateFormContainer{
+margin-top: 5px;
+}
+
+.userZipCodeFormInput{
+    font-size: 19px;
+    width: 25vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.userZipCodeFormContainer{
+    margin-top: 5px;
+}
+
+.submitFormInput{
+    font-size: 19px;
+    width: 26vw;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 15px;
+    border: 0px;
+    background-color: #119e00;
+    color: white;
+}
+
+.submitFormConatiner{
+    margin-top: 15px; 
+}
+
+
+
+.innerFormContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    border: solid 1px gray;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.userForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+
+
+
+.contextContainer{
+    min-height: calc(100vh - 70px - 80px - 50px);
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+   
+}
+
+.leftFooterContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightFooterContainer{
+    display: flex;
+    flex-direction: column; 
+}
+
+.footerContainer{
+    margin-top: 10px;
+    height: 70px;
+    background-color: #1F1F1F;
+    color: white;
+    border-radius:  27px 27px 0px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+

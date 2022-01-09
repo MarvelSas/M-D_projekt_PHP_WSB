@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative
+    
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navBar{
+    
+    height: 70px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 27px 27px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+
+.logo{
+    order: 1;
+    font-size: 40px;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 10%;
+    margin-left: 30px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.link{
+    
+    
+    cursor: default;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+
+.linkList{
+    order: 2;
+    font-size: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.space{
+    order: 3;
+    flex-grow: 1;
+}
+
+.userIcon{
+
+    order: 4;
+       
+}
+
+
+.userIconImg{
+   height: 55px; 
+  
+}
+
+
+
+
+
+
+
+
+.userLogin{
+    font-family: Arial, Helvetica, sans-serif;
+    order: 5;
+    display: inline-block;
+    color: white;
+    margin-right: 30px ;
+}
+
+.logOutForm{
+    order: 6;
+    display: inline-block;
+    margin-right: 50px;
+    width: 180px;
+    height: 40px;
+    
+}
+
+.logOutButton{
+    
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FABA17;
+    color: black;
+    border: 0px;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    
+    
+    
+    
+    
+}
+
+
+.contextContainer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+  
+ 
+    
+}
+
+.homeImagine{
+    width: 70%;
+    
+}
+
+
+
+
+.homeImageineContainer{
+    flex: 2;
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contextText{
+    order: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.homeTextContainerSpace{
+    display: flex;
+    flex: 1;
+    order: 1;
+    height: 1vh;
+}
+
+
+.homeTextContainer{
+    flex: 4;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.shortTextConatiner{
+    order: 1;
+    font-size: 2.5vw;
+    font-weight: bold;
+    
+}
+
+.descirptionContainer{
+    margin: 2vh;
+    padding: 15px;
+    order: 2;
+    font-size: 0.75vw;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.orderButton{
+
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FABA17;
+    color: black;
+    border: 0px;
+    font-size: 1vw;
+    width: 12vw;
+    height: 4vh;
+    
+    
+    
+
+}
+
+
+.buttonContainer{
+    padding-top: 50px;
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
